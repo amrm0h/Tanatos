@@ -1,0 +1,517 @@
+/*   Start  My frameWork  */
+
+.txt-center {text-align: center}
+
+.fl-lt {float: left}
+
+.hidden {display: none}
+
+:focus {outline: none}
+
+/* End  My frameWork  */
+
+
+/* *** Start  Global stylz   *** */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -O-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {font-family: Tahoma, Arial}
+
+.container {width: 70%;margin: auto}
+
+form ::-webkit-input-placeholder {font-size: 12px}
+
+form ::-moz-input-placeholder {font-size: 12px}
+
+form :-ms-input-placeholder {font-size: 12px}
+
+form :-moz-input-placeholder {font-size: 12px}
+
+ul {list-style: none}
+
+p {line-height: 1.5}
+
+h1, h3, button, input[type="submit"] {text-transform: uppercase}
+
+.white {color: white}
+
+div.overlay {width: 100%;height: 100%;background: rgba(64, 71, 79, .9)}
+
+
+/* *** End  Global stylz   *** */
+
+
+/* *** Start UP Arrow  *** */
+
+body > i.fas {
+    position: fixed;
+    right: 30px;
+    bottom: 18px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #f7600f;
+    border-radius: 50%;
+    background-color: #f7600f;
+    line-height: 35px;
+    color: white;
+    font-size: 25px;
+    display: none;
+    cursor: pointer
+}
+
+
+/* *** End UP Arrow *** */
+
+
+/* *** Start Header *** */
+
+div.header {background: url(../images/header.jpg);background-size: cover}
+
+div.header .nav {overflow: hidden}
+
+div.header .nav p {width: 50%;font-size: 20px}
+
+div.header .nav p span {color: #f7600f}
+
+div.header .nav > span {
+    float: right;
+    margin-top: 15px;
+    font-size: 17px;
+    cursor: pointer
+}
+
+div.header div.overlay ul {
+    position: fixed;
+    top: 30px;
+    right: 15px;
+    padding: 14px 0 0;
+    border: 1px solid #ccc9c9;
+    z-index: 9999;
+    width: 250px;
+    background-color: #000;
+    box-shadow: 0px 0px 12px #f7600f,
+                0px 0px 12px #f7600f
+}
+
+div.header div.overlay ul > i {
+    position: fixed;
+    top: 13px;
+    right: 126px;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    line-height: 30px;
+    cursor: pointer;
+    color: #ccc9c9
+}
+
+div.header div.overlay ul li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ccc9c9;
+    padding: 5px 0 13px;
+    color: white;
+    cursor: pointer;
+    text-shadow: 5px 4px 5px #f7600f;
+    font-weight: bold
+}
+
+div.header div.overlay ul li i {margin-right: 5px}
+
+div.header div.overlay ul::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #ccc9c9 transparent transparent;
+    position: absolute;
+    top: -10px;
+    right: -14px;
+}
+
+
+div.header div.overlay ul li:last-of-type {border: none}
+
+.header section.word {margin-top: 132px}
+
+.header section.word h1 {margin: 0;font-size: 41px}
+
+.header section.word h1 span {color: #f7600f}
+
+.header section.word p {width: 55%;margin: 25px auto}
+
+.header section.word button {
+    padding: 10px 25px;
+    width: 160px;
+    background: transparent;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out
+}
+
+.header section.word button:hover {background: #f7600f;border-color: #f7600f}
+
+.header section.word i {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+    line-height: 21px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 147px 0 30px
+}
+
+/* *** End Header *** */
+
+
+/* *** Satrt messions  *** */
+
+div.do {padding: 80px 30px}
+
+div.do div.messions {overflow: hidden}
+
+div.do div.messions .mession {width: 20%;margin-right: 6.6666%;color: #8d8f90}
+
+div.do div.messions .mession:last-of-type {margin-right: 0}
+
+div.do div.messions .mession i {
+    color: #f7600f;
+    border: 1px solid #8d8f90;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 45px
+}
+
+div.do div.messions .mession h3 {font-size: 15px}
+
+div.do div.messions .mession p {font-size: 14px}
+
+/* *** End messions  *** */
+
+
+/* ***  Start supscribe *** */
+
+div.supscribe {background: url(../images/supscripe.jpg);background-size: cover}
+
+
+div.supscribe form {width: 80%;margin: auto;padding: 80px 0}
+
+div.supscribe form input:first-of-type {
+    padding: 8px 10px;
+    width: 425px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 2%
+}
+
+div.supscribe form input:nth-of-type(2) {
+    background: #f7600f;
+    width: 170px;
+    padding: 11px 0;
+    border-radius: 7px;
+    border: 1px solid #f7600f;
+    font-size: 12px;
+    cursor: pointer
+}
+
+/* ***  End supscribe *** */
+
+
+/* *** Start Works  *** */
+
+div.works {padding: 70px 0}
+
+div.works h1 {margin: 0;font-weight: normal;font-size: 40px}
+
+div.works h1 span {color: #f7600f}
+
+div.works h1 ~ p {width: 37%;margin: 18px auto 75px;color: #8d8f90}
+
+div.works .images {overflow: hidden}
+
+div.works .images .work {
+    width: 32%;
+    height: 300px;
+    margin-right: 2%;
+    margin-bottom: 17px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative
+}
+
+div.works .images .work:nth-of-type(3n) {margin-right: 0}
+
+div.works .images .work img {width: 100%;height: 100%}
+
+div.works .images .work .small-overlay {
+    background: rgba(262, 96, 15, .9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out
+}
+div.works .images .work .small-overlay p {margin: 40px auto;width: 74%;font-size: 13px}
+
+div.works .images .work .small-overlay button {
+    width: 153px;
+    padding: 6px 0;
+    background: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 13px;
+    color: #f7600f;
+    cursor: pointer
+}
+
+div.works .images .work:hover .small-overlay {opacity: 1}
+
+
+div.works .images > button {
+    width: 153px;
+    padding: 6px 0;
+    background: transparent;
+    border: 1px solid #c1c1c1;
+    border-radius: 7px;
+    font-size: 13px;
+    color: #887a7a;
+    cursor: pointer;
+    margin: 60px 0 0
+}
+
+/* *** End Works  *** */
+
+
+/* *** Start testim  *** */
+
+.testim {background: url(../images/testimbg.jpg);background-size: cover;position: relative}
+
+.testim .man {padding: 85px 0 60px}
+
+.testim .man img {width: 114px;height: 100px;border-radius: 50%}
+
+.testim .man p {
+    width: 69%;
+    margin: 30px auto;
+    font-size: 21px;
+    font-style: italic
+}
+
+.testim .man span {font-size: 21px}
+
+.testim i {font-size: 35px;color: rgba(204, 204, 212, .6);cursor: pointer}
+
+.testim i:hover {color: rgba(204, 204, 212, 1)}
+
+.testim i.fa-chevron-left {position: absolute;top: 50%;left: 18%}
+
+.testim i.fa-chevron-right {position: absolute;top: 50%;right: 18%}
+
+.testim .man:not(.active) {display: none}
+
+/* *** End  testim *** */
+
+
+
+/* *** Start Team  *** */
+
+.our-team {padding: 70px 0}
+
+div.our-team h1 {margin: 0;font-weight: normal;font-size: 40px}
+
+div.our-team h1 span {color: #f7600f}
+
+div.our-team h1 ~ p {width: 37%;margin: 18px auto 75px;color: #8d8f90}
+
+div.our-team .images {overflow: hidden}
+
+div.our-team .images .team {width: 22%;margin-right: 4%;color: #777}
+
+div.our-team .images .team:last-of-type {margin-right: 0}
+
+div.our-team .images .team .image {
+    width: 100%;
+    height: 225px;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 28px;
+    position: relative
+}
+
+div.our-team .images .team .image img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    transition: all 0.2s ease-in-out
+}
+
+div.our-team .images .team h3 {margin: 0}
+
+div.our-team .images .team div.social-sites {margin: 20px 0}
+
+div.our-team .images .team div.social-sites i {
+    width: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #888;
+    line-height: 25px;
+    color: white;
+    margin-right: 5px;
+    font-size: 13px
+}
+
+div.our-team .images .team div.social-sites i:last-of-type {margin-right: 0}
+
+div.our-team .images .team p {line-height: 1.5;font-size: 13px}
+
+div.our-team .images .team:hover .image img {filter: none}
+
+div.our-team .images .team:hover h3,
+div.our-team .images .team:hover p {color: #3e3b3b}
+
+div.our-team .images .team:hover .social-sites i:first-of-type {background-color: #3b5998}
+
+div.our-team .images .team:hover .social-sites i:nth-of-type(2) {background-color: #1da1f2}
+
+div.our-team .images .team:hover .social-sites i:last-of-type {background-color: #dd4b39}
+
+div.our-team .images .team .image::after {
+    content: "";
+    width: 0;
+    height: 5px;
+    background-color: #f7600f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.2s ease-in-out
+}
+
+div.our-team .images .team:hover .image::after {width: 100%}
+
+
+
+/* *** End Team  *** */
+
+
+/* *** Start Contact  *** */
+
+.contact {background: url(../images/header.jpg);background-size: cover}
+
+.contact .overlay {padding: 50px 0}
+
+.contact h1 {margin: 0;font-weight: normal;font-size: 40px}
+
+.contact h1 span {color: #f7600f}
+
+.contact h1 ~ p {width: 55%;margin: 18px auto 45px;color: #dadee0}
+
+.contact .form {
+    width: 80%;
+    margin: auto;
+    padding: 20px 60px;
+    overflow: hidden
+}
+
+.contact .form input[type="email"],
+.contact .form input[type="text"],
+.contact .form textarea {padding: 10px 7px;border-radius: 7px;border: none}
+
+.contact .form input[type="email"] {width: 48%;margin-right: 5%}
+
+.contact .form input[type="text"] {width: 47%}
+
+.contact .form textarea {
+    width: 100%;
+    margin-top: 30px;
+    height: 170px;
+    resize: none
+}
+
+.contact .form input[type="submit"] {
+    background: #f7600f;
+    width: 170px;
+    padding: 11px 0;
+    border-radius: 7px;
+    border: 1px solid #f7600f;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 30px
+}
+
+.contact .form .socails {
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+    text-align: right
+}
+
+.contact .form .socails i {
+    width: 35px;
+    height: 35px;
+    margin-right: 11px;
+    padding: 8px 6px;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 21px;
+    cursor: pointer
+}
+
+.contact .form .socails i:first-of-type {background: #3b5998}
+
+.contact .form .socails i:nth-of-type(2) {background: #1da1f2}
+
+.contact .form .socails i:nth-of-type(3) {background: #dd4b39}
+
+.contact .form .socails i:nth-of-type(4) {background: #1769ff}
+
+.contact .form .socails i:last-of-type {margin: 0;background: #4285f4}
+
+/* *** End Contact  *** */
+
+
+/* *** Start Footer  *** */
+
+footer {
+    background-color: #505050;
+    overflow: hidden;
+    padding: 15px 0;
+    font-size: 14px
+}
+
+footer p:last-of-type {float: right}
+
+footer p:last-of-type span {color: #f7600f}
+
+/* *** End Footer  *** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
